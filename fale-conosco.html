@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outlet RL</title>
+
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+ <link rel="stylesheet" href="conosco-fale.css">
+
+</head>
+<body> 
+
+    <header>
+
+        <h2 class="linkagem">
+          <a href="index.html" id="HOME"><img src="imagens/logo-branca.png" height="30px" ></a>
+          <a href="roupas.html" id="camisas">CAMISAS</a>
+          <a href="acessorios.html" id="acessorios">ACESSORIOS</a>
+          <a href="perfumes.html" id="perfumes">PERFUMES</a>
+          <a href="https://instagram.com/outlet_rlsouza?igshid=OGQ5ZDc2ODk2ZA==" id="instagram" target="_blank">INSTAGRAM</a>
+          <a href="https://whatsapp.com/channel/0029VaAMARd4dTnRudej1L1q" id="whatsapp" target="_blank">WHATSAPP</a>
+        </h2>
+    
+  
+         
+  
+      <h1>  <img src="imagens/logo-branca.png" height="35px"> Outlet RL</h1>
+  
+      <p class="header">Mais do que uma roupa, um estilo de vida</p>
+  
+      
+  
+     </header>
+
+     <main>
+
+
+<form action="mailto:guilhermerodriguesdesouza68@gmail.com" method="post" id="iContato">
+    <fieldset id="usuario">
+        <legend>Identificação do Usuário</legend>
+            <p>
+                <p>
+                <label for="Nome">Nome</label>:<input type="text" name="tNome" id="Nome" size="30" maxlength="50" placeholder="Nome Completo"></input>
+               </p>
+
+               <p>
+                <label for="Senha">Senha</label>:<input type="password" name="tSenha" id="Senha" size="15" maxlength="10" placeholder="Senha 10 dígitos">
+            </p>
+               
+            <p>
+                <label for="Email">E-mail</label>:<input type="email" name="tEmail" id="Email" size="30" maxlength="30" placeholder="Digite seu e-mail">
+            </p>
+                <p>
+                <fieldset id="sexo">
+                    <legend>Sexo:</legend>
+                    
+                      <input type="radio" name="tSexo" id="Masc" ><label for="Masc"> Masculino</label> <br>
+
+                      <input type="radio" name="tSexo" id="Fem" checked ><label for="Fem"> Feminino</label>
+                </fieldset>
+                </p>
+                <p>
+                <label for="Nascimento">Data de Nascimento:<input type="date" name="tNascimento" id="Nascimento"</label>
+            </p>
+    </fieldset>
+    
+    <fieldset id="endereco">
+        <legend>Endereço do Usuário</legend>
+            <p>
+                <label for="Rua">Logradouro:</label><input type="text"  name="tRua" id="Rua" size="30" maxlength="50" placeholder="Rua, Travessa, Avenida...">
+            </p>
+            <p>
+                <label for="Num">Número:</label><input type="number"  name="tNum" id="Num" min="0" max="9999" size="30" maxlength="50" >
+            </p>
+            <p>
+                <label for="Est">Estado</label>:<select name="tEst" id="Est" >
+                    <optgroup label="Região Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="AC">Acre</option>
+                    <option value="RR">Roraima</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="AP">Amapá</option>
+                    <option value="TO">Tocantins</option>
+                    
+
+                    <optgroup label="Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PI">Piaui</option>
+                        <option value="CE">Ceará</option>
+                        <option value="RN">Rio Grande Do Norte</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="BA">Bahia</option>
+
+                        <optgroup label="Região Centro-Oeste">
+                            <option value="GO">Goiás</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso Do Sul</option>
+                            <option value="DF">Distrito Federal</option>
+
+                            <optgroup label="Região Sudeste">
+                                <option value="SP">São Paulo</option>
+                                <option value="RJ"selected>Rio de Janeiro</option>
+                                <option value="MG">Mato Gerais</option>
+                                <option value="ES">Espírito Santo</option>
+
+                                <optgroup label="Região Sul">
+                                    <option value="PR">Paraná</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="RS">Rio Gande Do Sul</option>
+                                 
+                </optgroup>
+                </select>
+
+            </p>
+            <p>
+                <label for="Cid">Cidade:<input type="text"  name="tCid" id="Cid" size="30" maxlength="50" placeholder="Digite sua Cidade"></label>
+            </p>
+    </fieldset>
+    
+    <fieldset id="mensagem">
+        <legend>Mensagem do Usuário</legend>
+            
+            <p>
+                <label for="Msg">Mensagem</label>:<textarea name="tMsg" id="Msg" cols="45" rows="5" placeholder="Digite sua Mensagem"></textarea>
+            </p>
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" valeu="Limpar"> <br>    
+    </p>
+</form>
+
+</main>
+
+
+
+<footer> Site criado por Guilherme Rodrigues e Lucas para o Colegio Geração 2000.</footer>
+    

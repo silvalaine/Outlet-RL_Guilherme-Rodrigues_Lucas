@@ -1,0 +1,293 @@
+@charset "utf-8"; 
+
+:root {
+    --cor0:#242526;
+    --cor1:#E4EBF2;
+    --cor2:#525759;
+    --cor3:#B4BBBF;
+    --cor4:#878A8C;
+    --cor5:#000000;
+}
+
+* {
+    
+    margin: 0px;
+    padding: 0px;
+   
+   }
+   
+   body {
+   
+   background-color: var(--cor3);
+   font-family:sans-serif;
+
+   }  
+
+   a {
+
+    color: inherit;
+    background-color: rgb(white);
+    margin: auto;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+   }
+   
+   nav > a {
+
+    color: var(--cor5);
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 1s;
+ 
+   }
+   
+header {
+
+    background-image: linear-gradient(to bottom , var(--cor5) , var(--cor3));
+    min-height: 10px;
+    padding: 15px;
+    
+
+}
+
+
+
+main {
+
+min-width: 100px;
+max-width: 1200px;
+margin: auto;
+margin-bottom: 30px;
+padding: 20px;
+background-color: white;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+border-radius: 35px;
+
+
+}
+
+h1 {
+
+    color: white;
+    text-align: right;
+    font-family: sans-serif;
+
+}
+
+h1.categoria {
+    
+    color: #000000;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+h2{
+
+    font-family: sans-serif;
+}
+h2.linkagem {
+  color: white;
+  border-radius: 10px;
+  border: 10px;
+
+}
+
+p {
+
+    color: white;
+    text-align:right;
+
+}
+
+h1.frete0 {
+text-align: center;
+color:white;
+background-color: #242526;
+font-weight: normal;
+padding: 10px;
+border-radius: 10px;
+}
+
+h2.teste02 {
+    color: #000000;
+    border-radius: 10px;
+    border: 10px;
+
+
+}
+
+
+
+
+footer {
+
+    background-color: var(--cor2);
+    color:white;
+    text-align: center;
+    font-size: 0,8em;
+    padding: 5px;
+
+}
+
+aside {
+
+    display: flex;
+
+}
+aside.frete{
+
+display: flex;
+background-color: #000000;
+color: white;
+padding: 10px;
+text-align: center;
+
+
+
+}
+
+div {
+
+    background-color: rgb(white);
+   
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.8s;
+
+}
+
+div:hover {
+  background-color: var(--cor3);
+
+
+}
+
+
+div.categoria {
+
+    background-color: rgb(white);
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+img#logo-branca0 {
+
+    display:flex;
+    
+}
+
+a.logo-branca1 {
+
+    text-align:center;
+    
+}
+
+
+a#camisas {
+
+    
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+a#camisas:hover {
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+a#acessorios {
+
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a#acessorios:hover{
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+a#perfumes {
+
+    
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+a#perfumes:hover {
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+a#instagram {
+
+   
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+a#instagram:hover{
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+a#whatsapp {
+
+    
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none; 
+}
+a#whatsapp:hover {
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+a#fale-conosco {
+
+    
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none; 
+    text-align: right;
+}
+a#fale-conosco:hover {
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
